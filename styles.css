@@ -113,106 +113,191 @@ body {
     color: var(--white-color);
 }
 
+.tour-info {
+    margin-top: 30px;
+}
+
 .tour-header {
     text-align: center;
 }
 
-.form-select {
-    margin-top: 40px;
-    border-radius: 15px;
+.tour-text {
+    padding: 40px 40px;
+    
 }
 
-.Service-section .title-header {
+.tour-image {
+    padding: 0px 40px;
+    overflow: hidden;
+}
+
+.tour-image img {
+    width: 650px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.destination-section {
+    background-image: url(../images/taipei-taiwan-place-airport-chung-cheng-age-reading-hall.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text-destination {
+    width: 100%;
+    margin-top: 10%;
+    position: absolute;
+    z-index: 4;
+}
+
+.header-text-destination .title-text  {
     font-weight: bold;
     font-size: 50px !important;
     color: var(--white-color);
 }
 
-.Service-section{
-    text-align: center;
-    background-color: rgb(22, 22, 22);
-    padding: 40px 0;
+.explore-section {
+    padding: 50px 0px;
 }
 
-.service-item-1{
-    padding-top: 40px;
+.explore-header {
+    display: flex;
+}
+
+.explore-header-menu {
+    padding: 30px 40px;
+}
+
+.tmp-header {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.arrow-menu {
+    font-size: 30px;
+}
+
+.arrow-menu i {
+    margin: 0px 15px;
+}
+
+.explore-list {
+    margin: 0px 25px;
+}
+
+.explore-item {
+    max-width: 300px;
     align-items: center;
+    position: relative;
 }
 
-.big-item .text-item {
-    font-weight: bold;
-    font-size: 25px !important;
-    color: #FF5C00;
+.explore-item-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
 }
 
-.big-item .small-text-item{
-    font-size: 15px !important;
-    opacity: 60%;
+.explore-item img {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
 }
 
-.text-popular .title-text-popular {
-    font-weight: bold;
-    font-size: 50px !important;
-    color: var(--white-color);
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 15px;
 }
 
-.text-popular{
-    text-align: center;
-    margin-top: 40px;
+.text-header-overlay {
+    color: rgba(255,255,255,0.5);
 }
 
-.card{
-    border: none;
-    width: 80%;
-    margin-left: 40px;
-    margin-top: 40px;
+.about-content {
+    max-width: 300px;
 }
 
-.card-body h5{
-    color: #000;
-    font-weight: bold;
-}
-
-.card-body p{
-    color: #000;
-}
-
-.card-body a{
-    background-color: #FF5C00;
-    border: none;
-    border-radius: 15px;
-}
-
-.text-blog .title-text-blog {
+.about-header .title-about{
     font-weight: bold;
     font-size: 50px !important;
     color: var(--white-color);
 }
 
-.text-blog {
-    text-align: center;
+
+.about-us {
+    margin-bottom: 40px;
+}
+
+.about-us-header-area {
+    padding: 0px 40px 40px 40px;
+}
+
+.about-content {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+}
+
+.about-video-travel{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blog {
+    padding: 40px 40px;
+}
+
+.blog-image {
+    max-width: 100%;
+    border-radius: 10px;
     margin-top: 40px;
 }
 
-.card-body .card-text{
-    opacity: 60%;
+.blog-date {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0;
+    width: 70px;
+    text-align: center;
 }
 
-.card-body-2 .card-text-2{
+.main-date {
     font-weight: bold;
-    font-size: 30px !important;
-    color: #FF5C00;
-    padding-left: 20px;
+    font-size: 30px;
 }
 
-.card-body-2 p{
-    font-size: 20px !important;
-    color: #000000;
-    padding-left: 20px;
-    opacity: 60%;
+.read-detail {
+    color: var(--orange-color);
+    text-decoration: none;
 }
 
+.blog-canlendar > div {
+    margin: 15px 0px;
+}
 
+.blog-content {
+    margin: 20px 0px;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.see-new {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 35px 15px 35px;
+    background-color: var(--orange-color);
+    text-decoration: none;
+    color: var(--white-color);
+    border-radius: 50px;
+}
 
 
 
